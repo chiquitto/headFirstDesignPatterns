@@ -35,7 +35,7 @@ public class WeatherData implements Subject {
         int iSize = observers.size();
         for (int i = 0; i < iSize; i++) {
             Observer observer = (Observer) observers.get(i);
-            observer.update(temperature, humidity, pressure);
+            observer.update(getTemperature(), getHumidity(), getPressure());
         }
     }
 
@@ -49,5 +49,17 @@ public class WeatherData implements Subject {
         this.pressure = pressure;
 
         measurementsChanged();
+    }
+
+    public float getTemperature() {
+        return temperature;
+    }
+
+    public float getHumidity() {
+        return humidity;
+    }
+
+    public float getPressure() {
+        return pressure;
     }
 }

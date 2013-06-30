@@ -1,0 +1,5 @@
+* WeatherStation
+Implementa Design Patter Observer
+
+* WeatherStation2
+Também implementa o Design Pattern Observer, mas desta vez usamos Java.Util.Observable e Java.Util.Observer

@@ -1,6 +1,6 @@
 package br.com.chiquitto.java.headFirstDesignPatterns;
 
-import br.com.chiquitto.java.headFirstDesignPatterns.weatherStation.WeatherStation;
+import br.com.chiquitto.java.headFirstDesignPatterns.WeatherStation2.WeatherStation;
 
 /**
  *
