@@ -10,6 +10,7 @@ public class WeatherStation {
         WeatherData w = new WeatherData();
         
         CurrentConditionsDisplay currentDisplay = new CurrentConditionsDisplay(w);
+        HeatIndexDisplay heatDisplay = new HeatIndexDisplay(w);
         
         w.setMeasurements(80, 65, 30.4f);
         w.setMeasurements(82, 70, 29.2f);
