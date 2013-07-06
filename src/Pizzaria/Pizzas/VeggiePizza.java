@@ -8,22 +8,22 @@ public class VeggiePizza implements Pizza {
 
     @Override
     public void prepare() {
-        System.out.println("Preparing VeggiePizza");
+        System.out.println("Preparing " + getClass().getSimpleName());
     }
 
     @Override
     public void bake() {
-        System.out.println("Baking VeggiePizza");
+        System.out.println("Baking " + getClass().getSimpleName());
     }
 
     @Override
     public void cut() {
-        System.out.println("Cuting VeggiePizza");
+        System.out.println("Cuting " + getClass().getSimpleName());
     }
 
     @Override
     public void box() {
-        System.out.println("Boxing VeggiePizza");
+        System.out.println("Boxing " + getClass().getSimpleName());
     }
     
 }

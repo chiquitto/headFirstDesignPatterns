@@ -8,9 +8,12 @@ import Pizzaria.Pizzas.*;
  */
 public class PizzariaTest {
     public static void main(String[] args) {
-        PizzaStore pizzaria = new PizzaStore(new SimplePizzaFactory());
+        PizzaStore nyPizzaria = new NYPizzaStore();
+        Pizza nyCheesePizza = nyPizzaria.orderPizza("cheese");
+        Pizza nyVeggiePizza = nyPizzaria.orderPizza("veggie");
         
-        Pizza cheesePizza = pizzaria.orderPizza("cheese");
-        Pizza veggiePizza = pizzaria.orderPizza("veggie");
+        PizzaStore chicagoPizzaria = new ChicagoPizzaStore();
+        Pizza chicagoCheesePizza = chicagoPizzaria.orderPizza("cheese");
+        Pizza chicagoVeggiePizza = chicagoPizzaria.orderPizza("veggie");
     }
 }

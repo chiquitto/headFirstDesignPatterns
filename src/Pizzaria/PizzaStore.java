@@ -6,28 +6,18 @@ import Pizzaria.Pizzas.Pizza;
  *
  * @author Alisson Chiquitto <chiquitto@gmail.com>
  */
-public class PizzaStore {
-
-    private SimplePizzaFactory pizzaFactory;
-
-    public PizzaStore(SimplePizzaFactory factory) {
-        this.pizzaFactory = factory;
-    }
+abstract public class PizzaStore {
 
     public Pizza orderPizza(String type) {
-        Pizza pizza = null;
-        try {
-            pizza = pizzaFactory.factory(type);
+        Pizza pizza = createPizza(type);
 
-            pizza.prepare();
-            pizza.bake();
-            pizza.cut();
-            pizza.box();
-        } catch (Exception ex) {
-            ex.printStackTrace();
-            System.exit(0);
-        }
+        pizza.prepare();
+        pizza.bake();
+        pizza.cut();
+        pizza.box();
 
         return pizza;
     }
+
+    abstract public Pizza createPizza(String item);
 }
