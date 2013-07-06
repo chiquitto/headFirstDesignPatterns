@@ -1,6 +1,6 @@
 
 
-import StrategyGameWeapon.GameWeapon;
+import strategyGameWeapon.GameWeapon;
 
 /**
  *
