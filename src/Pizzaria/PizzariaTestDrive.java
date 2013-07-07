@@ -1,7 +1,5 @@
 package Pizzaria;
 
-import Pizzaria.Pizzas.*;
-
 /**
  *
  * @author Alisson Chiquitto <chiquitto@gmail.com>
