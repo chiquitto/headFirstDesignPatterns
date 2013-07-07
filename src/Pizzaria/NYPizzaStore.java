@@ -1,5 +1,9 @@
 package Pizzaria;
 
+import Pizzaria.Pizzas.NYCheesePizza;
+import Pizzaria.Pizzas.Pizza;
+import Pizzaria.Pizzas.NYVeggiePizza;
+
 /**
  *
  * @author Alisson Chiquitto <chiquitto@gmail.com>

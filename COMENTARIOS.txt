@@ -10,6 +10,9 @@ O Padrão Decorator anexa responsabilidades adicionais a um objeto dinamicamente
 * Padrão Factory Method
 Padrão Factory Method define uma interface para criar um objeto, mas permite às classes decidir qual classe instanciar. O Factory Method permite a uma classe definir a instanciação para subclasses.
 
+* Padrão Abstract Factory
+O Padrão Abstract Factory fornece uma interface para criar famílias de objetos relacionados ou dependentes sem especificar suas classes concretas.
+
 ==
 
 * StrategyGameWeapon
@@ -26,3 +29,6 @@ Implementa o Design Pattern Decorator
 
 * Pizzaria
 Implementa o Design Pattern Factory
+
+* PizzariaV2
+Implementa o Design Pattern Abstract Factory

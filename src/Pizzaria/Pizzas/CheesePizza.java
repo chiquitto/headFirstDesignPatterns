@@ -1,4 +1,4 @@
-package Pizzaria;
+package Pizzaria.Pizzas;
 
 /**
  *

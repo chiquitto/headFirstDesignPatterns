@@ -1,13 +1,10 @@
-package Pizzaria;
-
-import Pizzaria.Pizzas.Pizza;
+package PizzariaV2;
 
 /**
  *
  * @author Alisson Chiquitto <chiquitto@gmail.com>
  */
-abstract public class PizzaStore {
-
+abstract class PizzaStore {
     public Pizza orderPizza(String type) {
         Pizza pizza = createPizza(type);
 
@@ -19,5 +16,5 @@ abstract public class PizzaStore {
         return pizza;
     }
 
-    abstract public Pizza createPizza(String item);
+    abstract protected Pizza createPizza(String item);
 }
