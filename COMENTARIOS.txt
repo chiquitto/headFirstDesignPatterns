@@ -8,4 +8,7 @@ Implementa Design Pattern Observer
 Também implementa o Design Pattern Observer, mas desta vez usamos Java.Util.Observable e Java.Util.Observer
 
 * StarbuzzCoffe
-Implementa o Design Patter Decorator
+Implementa o Design Pattern Decorator
+
+* Pizzaria
+Implementa o Design Pattern Factory
