@@ -1,5 +1,6 @@
 package RemoteControl2.Commands;
 
+import RemoteControl2.Commands.*;
 import RemoteControl2.Command;
 
 /**
@@ -10,5 +11,9 @@ public class NoCommand implements Command {
 
     @Override
     public void execute() {
+    }
+
+    @Override
+    public void undo() {
     }
 }
