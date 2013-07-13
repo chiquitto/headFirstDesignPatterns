@@ -13,6 +13,12 @@ Padrão Factory Method define uma interface para criar um objeto, mas permite à
 * Padrão Abstract Factory
 O Padrão Abstract Factory fornece uma interface para criar famílias de objetos relacionados ou dependentes sem especificar suas classes concretas.
 
+* Padrão Singleton
+O Padrão Singleton garante que uma classe tenha apenas uma instancia e fornece um ponto global de acesso a ela.
+
+* Padrão Command
+O Padrão Command encapsula uma solicitação como um objeto, o que lhe permite parametrizar outros objetos com diferentes solicitações, enfileirar ou registrar solicitações e implementar recursos de cancelamento de operações.
+
 ==
 
 * StrategyGameWeapon
@@ -32,3 +38,6 @@ Implementa o Design Pattern Factory
 
 * PizzariaV2
 Implementa o Design Pattern Abstract Factory
+
+* ControleRemoto
+Implementa o Design Pattern Padrão Command
