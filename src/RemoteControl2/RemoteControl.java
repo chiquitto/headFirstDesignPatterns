@@ -1,6 +1,6 @@
-package RemoteControl;
+package RemoteControl2;
 
-import RemoteControl.Commands.NoCommand;
+import RemoteControl2.Commands.NoCommand;
 
 /**
  *

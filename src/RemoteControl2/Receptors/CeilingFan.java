@@ -1,4 +1,4 @@
-package RemoteControl.Receptors;
+package RemoteControl2.Receptors;
 
 /**
  *

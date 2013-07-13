@@ -1,7 +1,7 @@
-package RemoteControl.Commands;
+package RemoteControl2.Commands;
 
-import RemoteControl.Command;
-import RemoteControl.Receptors.Stereo;
+import RemoteControl2.Command;
+import RemoteControl2.Receptors.Stereo;
 
 /**
  *

@@ -1,9 +1,7 @@
-package RemoteControl;
+package RemoteControl2;
 
-import RemoteControl.Commands.GarageDoorUpCommand;
-import RemoteControl.Commands.LightOnCommand;
-import RemoteControl.Receptors.GarageDoor;
-import RemoteControl.Receptors.Light;
+import RemoteControl2.Commands.*;
+import RemoteControl2.Receptors.*;
 
 /**
  *
