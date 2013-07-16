@@ -19,6 +19,9 @@ O Padrão Singleton garante que uma classe tenha apenas uma instancia e fornece 
 * Padrão Command
 O Padrão Command encapsula uma solicitação como um objeto, o que lhe permite parametrizar outros objetos com diferentes solicitações, enfileirar ou registrar solicitações e implementar recursos de cancelamento de operações.
 
+* Padrão Adapter
+O Padrão Adapter converte a interface de uma classe para outra interface que o cliente espera encontrar. O Adaptador permite que classes com interfaces incompatíveis trabalhem juntas.
+
 ==
 
 * StrategyGameWeapon
@@ -40,10 +43,10 @@ Implementa o Design Pattern Factory
 Implementa o Design Pattern Abstract Factory
 
 * ControleRemoto
-Implementa o Design Pattern Padrão Command
+Implementa o Design Pattern Command
 
 * ControleRemoto2
-Implementa o Design Pattern Padrão Command
+Implementa o Design Pattern Command
 
 * Adapter1
 Implementa o Design Pattern Adapter
