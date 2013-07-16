@@ -41,3 +41,11 @@ Implementa o Design Pattern Abstract Factory
 
 * ControleRemoto
 Implementa o Design Pattern Padrão Command
+
+* ControleRemoto2
+Implementa o Design Pattern Padrão Command
+
+* Adapter1
+Implementa o Design Pattern Adapter
+
+
