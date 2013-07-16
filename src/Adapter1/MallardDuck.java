@@ -4,7 +4,7 @@ package Adapter1;
  *
  * @author Alisson Chiquitto <chiquitto@gmail.com>
  */
-public class MallardPato implements Pato {
+public class MallardDuck implements Duck {
 
     @Override
     public void quack() {

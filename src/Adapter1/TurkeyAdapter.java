@@ -4,23 +4,23 @@ package Adapter1;
  *
  * @author Alisson Chiquitto <chiquitto@gmail.com>
  */
-public class PavaoAdapter implements Pato {
+public class TurkeyAdapter implements Duck {
 
-    Pavao pavao;
+    Turkey turkey;
 
-    public PavaoAdapter(Pavao pavao) {
-        this.pavao = pavao;
+    public TurkeyAdapter(Turkey pavao) {
+        this.turkey = pavao;
     }
 
     @Override
     public void quack() {
-        pavao.gobble();
+        turkey.gobble();
     }
 
     @Override
     public void fly() {
         for (int i = 0; i < 5; i++) {
-            pavao.fly();
+            turkey.fly();
         }
     }
 }

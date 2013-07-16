@@ -4,7 +4,7 @@ package Adapter1;
  *
  * @author Alisson Chiquitto <chiquitto@gmail.com>
  */
-public class WildPavao implements Pavao{
+public class WildTurkey implements Turkey {
 
     @Override
     public void gobble() {
@@ -15,5 +15,4 @@ public class WildPavao implements Pavao{
     public void fly() {
         System.out.println("Estou voando por curto espaço");
     }
-    
 }

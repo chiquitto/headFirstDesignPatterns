@@ -4,23 +4,23 @@ package Adapter1;
  *
  * @author Alisson Chiquitto <chiquitto@gmail.com>
  */
-public class PatoTest {
+public class DuckTest {
     public static void main(String[] args) {
-        MallardPato pato = new MallardPato();
+        MallardDuck duck = new MallardDuck();
         
-        WildPavao pavao = new WildPavao();
-        Pato pavaoAdapter = new PavaoAdapter(pavao);
+        WildTurkey turkey = new WildTurkey();
+        Duck turkeyAdapter = new TurkeyAdapter(turkey);
         
         System.out.println("O Pavao diz ...");
-        pavao.gobble();
-        pavao.fly();
+        turkey.gobble();
+        turkey.fly();
         
         System.out.println("\nO Pato diz ...");
-        pato.quack();
-        pato.fly();
+        duck.quack();
+        duck.fly();
         
         System.out.println("\nO PavaoAdapter diz ...");
-        pavaoAdapter.quack();
-        pavaoAdapter.fly();
+        turkeyAdapter.quack();
+        turkeyAdapter.fly();
     }
 }
