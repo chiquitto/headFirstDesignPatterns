@@ -22,6 +22,9 @@ O Padrão Command encapsula uma solicitação como um objeto, o que lhe permite 
 * Padrão Adapter
 O Padrão Adapter converte a interface de uma classe para outra interface que o cliente espera encontrar. O Adaptador permite que classes com interfaces incompatíveis trabalhem juntas.
 
+* Padrão Facade
+O Padrão Facade fornece uma interface unificada para um conjunto de interfaces de um subsistema. A fachada define uma interface de nível mais alto que facilita a utilização do subsistema.
+
 ==
 
 * StrategyGameWeapon
@@ -49,6 +52,7 @@ Implementa o Design Pattern Command
 Implementa o Design Pattern Command
 
 * Adapter1
-Implementa o Design Pattern Adapter
+Implementa o Design Pattern Adapter Object
 
-
+* HomeTheater
+Implementa o Design Pattern Facade
