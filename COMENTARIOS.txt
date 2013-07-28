@@ -23,7 +23,10 @@ O Padrão Command encapsula uma solicitação como um objeto, o que lhe permite 
 O Padrão Adapter converte a interface de uma classe para outra interface que o cliente espera encontrar. O Adaptador permite que classes com interfaces incompatíveis trabalhem juntas.
 
 * Padrão Facade
-O Padrão Facade fornece uma interface unificada para um conjunto de interfaces de um subsistema. A fachada define uma interface de nível mais alto que facilita a utilização do subsistema.
+O Padrão Facade (Fachada) fornece uma interface unificada para um conjunto de interfaces de um subsistema. A fachada define uma interface de nível mais alto que facilita a utilização do subsistema.
+
+* Padrão Template Method
+O Padrão Template Method define um esqueleto de um algoritmo dentro de um método, transferindo alguns de seus passos para as subclasses. O Template method permite que as subclasses redefinam certos passos de um algoritmo sem alterar a estrutura do próprio algoritmo.
 
 ==
 
@@ -56,3 +59,6 @@ Implementa o Design Pattern Adapter Object
 
 * HomeTheater
 Implementa o Design Pattern Facade
+
+* CaffeineBeverageTemplate
+Implementa o Design Pattern Template Method
