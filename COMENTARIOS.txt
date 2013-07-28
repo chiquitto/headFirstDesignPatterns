@@ -61,4 +61,23 @@ Implementa o Design Pattern Adapter Object
 Implementa o Design Pattern Facade
 
 * CaffeineBeverageTemplate
+* CaffeineBeverageTemplateWithHook
 Implementa o Design Pattern Template Method
+
+==
+
+Quem faz o que I?
+
+Decorator -> Nao muda a interface, so acrescenta responsabilidades.
+Adapter -> Converte uma interface para outra.
+Facade -> Simplifica uma interface.
+
+Quem faz o que II?
+
+Template Method -> As subclasses decidem como os passos de um algoritmo serao implementados.
+Strategy -> Encapsula comportamentos intercambiaveis e usa delegacao para decidir qual comportamento deve ser utilizado.
+Factory Method -> As subclasses decidem quais classes concretas serao criadas.
+
+==
+
+
